@@ -1,0 +1,49 @@
+mng@EliteBook850G3:~$ cd Documents
+mng@EliteBook850G3:~/Documents$ ls
+'Dictionnaire Francais PyCharm'   Projet   quetes
+mng@EliteBook850G3:~/Documents$ mkdir -p quetes/shell/planets/ real inhabited fictional
+mng@EliteBook850G3:~/Documents$ cd quetes
+mng@EliteBook850G3:~/Documents/quetes$ cd shell
+mng@EliteBook850G3:~/Documents/quetes/shell$ ls
+planets  planets.zip
+mng@EliteBook850G3:~/Documents/quetes/shell$ cd planets
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ mkdir -p /planets/ real inhabited fictional
+mkdir: impossible de créer le répertoire «/planets/»: Permission non accordée
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ sudo mkdir -p /planets/ real inhabited fictional
+[sudo] Mot de passe de mng : 
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ ls
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ sudo mkdir -p /planets/real/ telluric gas-giants dwarf-planets
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ ls
+arrakis.jpeg    cybertron.jpeg  earth.jpeg  gas-giants  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  uranus.jpeg
+coruscant.jpeg  dwarf-planets   fictional   inhabited   mars.jpeg     neptune.jpeg  real        telluric     venus.jpeg
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cd real
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ mkdir -p /planets/real/ telluric gas-giants dwarf-planets
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+dwarf-planets  gas-giants  telluric
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+dwarf-planets  gas-giants  telluric
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+dwarf-planets  gas-giants  telluric
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ cd ..
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictional  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited  mars.jpeg     neptune.jpeg  real        uranus.jpeg
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cp mercury.jpeg earth.jpeg mars.jpeg jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg venus.jpeg /home/mng/Documents/quetes/shell/planets/real/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cp pluto.jpeg /home/mng/Documents/quetes/shell/planets/real/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cd real/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ ls
+dwarf-planets  gas-giants    mars.jpeg     neptune.jpeg  saturn.jpeg  uranus.jpeg
+earth.jpeg     jupiter.jpeg  mercury.jpeg  pluto.jpeg    telluric     venus.jpeg
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ rm pluto.jpeg 
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ cd ..
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictional  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  uranus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited  mars.jpeg     neptune.jpeg  real        test         venus.jpeg
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ mv arrakis.jpeg cybertron.jpeg coruscant.jpeg /home/mng/Documents/quetes/shell/planets/fictional/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cp earth.jpeg /home/mng/Documents/quetes/shell/planets/inhabited/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cd fictional/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/fictional$ cp arrakis.jpeg cybertron.jpeg coruscant.jpeg /home/mng/Documents/quetes/shell/planets/inhabited/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/fictional$ 
