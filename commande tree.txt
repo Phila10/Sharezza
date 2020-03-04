@@ -1,17 +1,7 @@
-mng@EliteBook850G3:~/Documents/quetes/shell/planets/fictional$ tree
-.
-├── arrakis.jpeg
-├── coruscant.jpeg
-└── cybertron.jpeg
-
-0 directories, 3 files
-mng@EliteBook850G3:~/Documents/quetes/shell/planets/fictional$ cd
-mng@EliteBook850G3:~$ cd Documents/quetes/
 mng@EliteBook850G3:~/Documents/quetes$ tree
 .
 └── shell
     ├── planets
-    │   ├── earth.jpeg
     │   ├── fictional
     │   │   ├── arrakis.jpeg
     │   │   ├── coruscant.jpeg
@@ -21,28 +11,17 @@ mng@EliteBook850G3:~/Documents/quetes$ tree
     │   │   ├── coruscant.jpeg
     │   │   ├── cybertron.jpeg
     │   │   └── earth.jpeg
-    │   ├── jupiter.jpeg
-    │   ├── mars.jpeg
-    │   ├── mercury.jpeg
-    │   ├── neptune.jpeg
-    │   ├── pluto.jpeg
-    │   ├── real
-    │   │   ├── dwarf-planets
-    │   │   ├── earth.jpeg
-    │   │   ├── gas-giants
-    │   │   ├── jupiter.jpeg
-    │   │   ├── mars.jpeg
-    │   │   ├── mercury.jpeg
-    │   │   ├── neptune.jpeg
-    │   │   ├── saturn.jpeg
-    │   │   ├── telluric
-    │   │   ├── uranus.jpeg
-    │   │   └── venus.jpeg
-    │   ├── saturn.jpeg
-    │   ├── test
-    │   ├── uranus.jpeg
-    │   └── venus.jpeg
-    └── planets.zip
+    │   └── real
+    │       ├── earth.jpeg
+    │       ├── gas-giants
+    │       ├── jupiter.jpeg
+    │       ├── mars.jpeg
+    │       ├── mercury.jpeg
+    │       ├── neptune.jpeg
+    │       ├── saturn.jpeg
+    │       ├── telluric
+    │       ├── uranus.jpeg
+    │       └── venus.jpeg
+    └── planets.zip?raw=true
 
-8 directories, 26 files
-mng@EliteBook850G3:~/Documents/quetes$ 
+7 directories, 16 files
