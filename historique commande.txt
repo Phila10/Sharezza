@@ -39,6 +39,8 @@ mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ mkdir -p telluric gas-
 mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ cd ..
 mng@EliteBook850G3:~/Documents/quetes/shell/planets$ mv mercury.jpeg earth.jpeg pluto.jpeg jupiter.jpeg venus.jpeg mars.jpeg uranus.jpeg neptune.jpeg saturn.jpeg /home/mng/Documents/quetes/shell/planets/real/
 mng@EliteBook850G3:~/Documents/quetes/shell/planets$ mv arrakis.jpeg cybertron.jpeg coruscant.jpeg /home/mng/Documents/quetes/shell/planets/fictional/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ mv earth.jpeg mercury.jpeg mars.jpeg venus.jpeg /home/mng/Documents/quetes/shell/planets/real/telluric/
+mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ mv jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg /home/mng/Documents/quetes/shell/planets/real/gas-giants/
 mng@EliteBook850G3:~/Documents/quetes/shell/planets$ cd real/
 mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ cp earth.jpeg /home/mng/Documents/quetes/shell/planets/inhabited/
 mng@EliteBook850G3:~/Documents/quetes/shell/planets/real$ cd ..
