@@ -1,4 +1,3 @@
-mng@EliteBook850G3:~/Documents/quetes$ tree
 .
 └── shell
     ├── planets
@@ -12,16 +11,16 @@ mng@EliteBook850G3:~/Documents/quetes$ tree
     │   │   ├── cybertron.jpeg
     │   │   └── earth.jpeg
     │   └── real
-    │       ├── earth.jpeg
     │       ├── gas-giants
-    │       ├── jupiter.jpeg
-    │       ├── mars.jpeg
-    │       ├── mercury.jpeg
-    │       ├── neptune.jpeg
-    │       ├── saturn.jpeg
-    │       ├── telluric
-    │       ├── uranus.jpeg
-    │       └── venus.jpeg
+    │       │   ├── jupiter.jpeg
+    │       │   ├── neptune.jpeg
+    │       │   ├── saturn.jpeg
+    │       │   └── uranus.jpeg
+    │       └── telluric
+    │           ├── earth.jpeg
+    │           ├── mars.jpeg
+    │           ├── mercury.jpeg
+    │           └── venus.jpeg
     └── planets.zip?raw=true
 
 7 directories, 16 files
