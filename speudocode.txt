@@ -1,0 +1,18 @@
+Enoncer
+// Le pseudo-code vérifie bien que argent et prix sont strictement supérieurs à 0.
+Une boucle est utilisée pour calculer le résultat.
+Le nombre de bonbons retourné est bien un entier (pas de possibilité de nombre à virgule).
+//
+
+Solution :
+
+Début Achat (réel Argent, réel Prix, entier NbBonbon)
+  si Argent et Prix > 0:
+    tant que Argent >= Prix:
+      NbBonbon <- NbBonbon + 1
+      Argent <- Argent - Prix
+    Fin tant que
+  Fin si
+retourner NbBonbon
+
+Fin Achat
