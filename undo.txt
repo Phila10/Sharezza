@@ -1,3 +1,144 @@
+➜  sharezza-oops git:(master) ✗ echo "# sharezza-oops" >> README.md
+➜  sharezza-oops git:(master) ✗ git init
+Dépôt Git vide initialisé dans /home/mng/Documents/Projet/Sharezza-Social/sharezza-oops/.git/
+➜  sharezza-oops git:(master) ✗ git add README.md
+➜  sharezza-oops git:(master) ✗ git commit -m "first commit'
+dquote> git remove add origin git@github.com:Mamednoor/sharezza-oops.git
+dquote> "
+[master (commit racine) 91054a1] first commit' git remove add origin git@github.com:Mamednoor/sharezza-oops.git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+➜  sharezza-oops git:(master) ✗ git remote add origin git@github.com:Mamednoor/sharezza-oops.git
+➜  sharezza-oops git:(master) ✗ git push -u origin master
+Énumération des objets: 3, fait.
+Décompte des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 274 bytes | 274.00 KiB/s, fait.
+Total 3 (delta 0), réutilisés 0 (delta 0)
+To github.com:Mamednoor/sharezza-oops.git
+ * [new branch]      master -> master
+ 
+La branche 'master' est paramétrée pour suivre la branche distante 'master' depuis 'origin'.
+➜  sharezza-oops git:(master) ✗ touch index.html
+➜  sharezza-oops git:(master) ✗ code .
+➜  sharezza-oops git:(master) ✗ git add index.html 
+➜  sharezza-oops git:(master) ✗ ls -a
+
+.  ..  .git  index.html  README.md
+➜  sharezza-oops git:(master) ✗ git commit -m "add index.html"
+[master e7b7089] add index.html
+ 1 file changed, 14 insertions(+)
+ create mode 100644 index.html
+➜  sharezza-oops git:(master) code .
+➜  sharezza-oops git:(master) git add index.html
+➜  sharezza-oops git:(master) git commit -m "add H1"
+Sur la branche master
+
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+rien à valider, la copie de travail est propre
+➜  sharezza-oops git:(master) git commit -m "add H1"
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+Modifications qui ne seront pas validées :
+	modifié :         index.html
+
+aucune modification ajoutée à la validation
+➜  sharezza-oops git:(master) ✗ git push
+Énumération des objets: 4, fait.
+Décompte des objets: 100% (4/4), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 535 bytes | 535.00 KiB/s, fait.
+Total 3 (delta 0), réutilisés 0 (delta 0)
+To github.com:Mamednoor/sharezza-oops.git
+   91054a1..e7b7089  master -> master
+➜  sharezza-oops git:(master) ✗ git commit -m "add h2"
+Sur la branche master
+Votre branche est à jour avec 'origin/master'.
+
+Modifications qui ne seront pas validées :
+	modifié :         index.html
+
+aucune modification ajoutée à la validation
+➜  sharezza-oops git:(master) ✗ git add index.html 
+➜  sharezza-oops git:(master) ✗ git commit -m "add h2"
+[master 365aa0f] add h2
+ 1 file changed, 4 insertions(+)
+➜  sharezza-oops git:(master) git add index.html
+➜  sharezza-oops git:(master) git commit -m "add bootstrap"
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+rien à valider, la copie de travail est propre
+➜  sharezza-oops git:(master) git commit -m "add bootstrap"
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+Modifications qui ne seront pas validées :
+	modifié :         index.html
+
+aucune modification ajoutée à la validation
+➜  sharezza-oops git:(master) ✗ git add index.html           
+➜  sharezza-oops git:(master) ✗ git commit -m "add bootstrap"
+[master 4bb9821] add bootstrap
+ 1 file changed, 6 insertions(+)
+➜  sharezza-oops git:(master) git add index.html 
+➜  sharezza-oops git:(master) ✗ git commit -m "add h3"
+[master 397fe35] add h3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+➜  sharezza-oops git:(master) git push
+Énumération des objets: 11, fait.
+Décompte des objets: 100% (11/11), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets: 100% (9/9), fait.
+Écriture des objets: 100% (9/9), 976 bytes | 976.00 KiB/s, fait.
+Total 9 (delta 3), réutilisés 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To github.com:Mamednoor/sharezza-oops.git
+   e7b7089..397fe35  master -> master
+➜  sharezza-oops git:(master) git log --oneline 
+➜  sharezza-oops git:(master) git checkout 4bb9821 
+Note : extraction de '4bb9821'.
+
+Vous êtes dans l'état « HEAD détachée ». Vous pouvez visiter, faire des modifications
+expérimentales et les valider. Il vous suffit de faire une autre extraction pour
+abandonner les commits que vous faites dans cet état sans impacter les autres branches
+
+Si vous voulez créer une nouvelle branche pour conserver les commits que vous créez,
+il vous suffit d'utiliser « checkout -b » (maintenant ou plus tard) comme ceci :
+
+  git checkout -b <nom-de-la-nouvelle-branche>
+
+HEAD est maintenant sur 4bb9821 add bootstrap
+➜  sharezza-oops git:(4bb9821) git checkout master
+La position précédente de HEAD était sur 4bb9821 add bootstrap
+Basculement sur la branche 'master'
+Votre branche est à jour avec 'origin/master'.
+➜  sharezza-oops git:(master) git push
+Everything up-to-date
+➜  sharezza-oops git:(master) git revert 4bb9821 
+[master 66ef5eb] Revert "add bootstrap"
+ 1 file changed, 6 deletions(-)
+➜  sharezza-oops git:(master) git log --oneline
+➜  sharezza-oops git:(master) git push
+Énumération des objets: 5, fait.
+Décompte des objets: 100% (5/5), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 372 bytes | 186.00 KiB/s, fait.
+Total 3 (delta 1), réutilisés 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Mamednoor/sharezza-oops.git
+   397fe35..66ef5eb  master -> master
+➜  sharezza-oops git:(master) git log --oneline 
+
+Git log --oneline ==>
+
 66ef5eb (HEAD -> master, origin/master) Revert "add bootstrap"
 397fe35 add h3
 4bb9821 add bootstrap
@@ -5,4 +146,5 @@
 e7b7089 add index.html
 91054a1 first commit' git remove add origin git@github.com:Mamednoor/sharezza-oops.git
 (END)
+
 
