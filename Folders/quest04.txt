@@ -1,2 +1,6 @@
 Hello World LOCAL!!!
+<<<<<<< HEAD
 second Hello World Local
+=======
+second Hello World REMOTE
+>>>>>>> 26e29927bcd7ce1edab437f3d0b1b124a7b03a39
