@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello Wilder</title>
+</head>
+
+<body>
+    <script src="hello-wilder.js"></script>
+</body>
+
+</html>
+
+==========================JS========================
+
+/* hello-wilder.js */
+
+// Define some variables
+const FavoriteMovie = 'Pulp Fiction, ';
+const Release = '26 octobre 1994 ';
+const Directed = 'Quentin Tarantino '
+const message = FavoriteMovie + 'Réalisé par '+ Directed + 'est sorti le '+ Release + 'et est le meilleur film EVER' ;
+
+// Display a popup
+alert(message);
