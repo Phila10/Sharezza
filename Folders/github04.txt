@@ -1,0 +1,126 @@
+➜  Folders git:(dev) ✗ code quest04.txt 
+➜  Folders git:(dev) ✗ git pull
+error: Impossible de tirer car vous avez des fichiers non fusionnés.
+astuce: Corrigez-les puis lancez 'git add/rm <fichier>'
+astuce: si nécessaire pour marquer la résolution et valider.
+fatal: Abandon à cause de conflit non résolu.
+➜  Folders git:(dev) ✗ cat quest04.txt 
+Hello World !!!
+➜  Folders git:(dev) ✗ code quest04.txt 
+➜  Folders git:(dev) ✗ git pull
+error: Impossible de tirer car vous avez des fichiers non fusionnés.
+astuce: Corrigez-les puis lancez 'git add/rm <fichier>'
+astuce: si nécessaire pour marquer la résolution et valider.
+fatal: Abandon à cause de conflit non résolu.
+➜  Folders git:(dev) ✗ git add quest04.txt 
+➜  Folders git:(dev) ✗ git commit -m "resolving conflit"
+[dev 34c12ea] resolving conflit
+➜  Folders git:(dev) git pull
+Déjà à jour.
+➜  Folders git:(dev) git push
+Username for 'https://github.com': Mamednoor
+Password for 'https://Mamednoor@github.com': 
+Énumération des objets: 14, fait.
+Décompte des objets: 100% (14/14), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets: 100% (6/6), fait.
+Écriture des objets: 100% (8/8), 722 bytes | 180.00 KiB/s, fait.
+Total 8 (delta 2), réutilisés 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Mamednoor/Sharezza
+   8e5cee6..34c12ea  dev -> dev
+➜  Folders git:(dev) code quest04.txt 
+➜  Folders git:(dev) git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (4/4), fait.
+Depuis https://github.com/Mamednoor/Sharezza
+   34c12ea..26e2992  dev        -> origin/dev
+Mise à jour 34c12ea..26e2992
+error: Vos modifications locales aux fichiers suivants seraient écrasées par la fusion :
+	Folders/quest04.txt
+Veuillez valider ou remiser vos modifications avant la fusion.
+Abandon
+➜  Folders git:(dev) ✗ code quest04.txt 
+➜  Folders git:(dev) ✗ git pull
+Mise à jour 34c12ea..26e2992
+error: Vos modifications locales aux fichiers suivants seraient écrasées par la fusion :
+	Folders/quest04.txt
+Veuillez valider ou remiser vos modifications avant la fusion.
+Abandon
+➜  Folders git:(dev) ✗ git add quest04.txt 
+➜  Folders git:(dev) ✗ git commit -m "second change save local"
+[dev c72bdf5] second change save local
+ 1 file changed, 1 insertion(+)
+➜  Folders git:(dev) git status
+Sur la branche dev
+Votre branche et 'origin/dev' ont divergé,
+et ont 1 et 1 commits différents chacune respectivement.
+  (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
+
+rien à valider, la copie de travail est propre
+➜  Folders git:(dev) git pull
+Fusion automatique de Folders/quest04.txt
+CONFLIT (contenu) : Conflit de fusion dans Folders/quest04.txt
+La fusion automatique a échoué ; réglez les conflits et validez le résultat.
+➜  Folders git:(dev) ✗ git push origin dev
+Username for 'https://github.com': Mamednoor
+Password for 'https://Mamednoor@github.com': 
+To https://github.com/Mamednoor/Sharezza
+ ! [rejected]        dev -> dev (non-fast-forward)
+error: impossible de pousser des références vers 'https://github.com/Mamednoor/Sharezza'
+astuce: Les mises à jour ont été rejetées car la pointe de la branche courante est derrière
+astuce: son homologue distant. Intégrez les changements distants (par exemple 'git pull ...')
+astuce: avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+➜  Folders git:(dev) ✗ git pull
+error: Impossible de tirer car vous avez des fichiers non fusionnés.
+astuce: Corrigez-les puis lancez 'git add/rm <fichier>'
+astuce: si nécessaire pour marquer la résolution et valider.
+fatal: Abandon à cause de conflit non résolu.
+➜  Folders git:(dev) ✗ git status
+Sur la branche dev
+Votre branche et 'origin/dev' ont divergé,
+et ont 1 et 1 commits différents chacune respectivement.
+  (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
+
+Vous avez des chemins non fusionnés.
+  (réglez les conflits puis lancez "git commit")
+  (utilisez "git merge --abort" pour annuler la fusion)
+
+Chemins non fusionnés :
+  (utilisez "git add <fichier>..." pour marquer comme résolu)
+
+	modifié des deux côtés :  quest04.txt
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+➜  Folders git:(dev) ✗ git add quest04.txt 
+➜  Folders git:(dev) ✗ git commit -m "valid second change"
+[dev 6b68a2c] valid second change
+➜  Folders git:(dev) git push origin dev
+Username for 'https://github.com': Mamednoor
+Password for 'https://Mamednoor@github.com': 
+Énumération des objets: 14, fait.
+Décompte des objets: 100% (14/14), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets: 100% (7/7), fait.
+Écriture des objets: 100% (8/8), 825 bytes | 206.00 KiB/s, fait.
+Total 8 (delta 2), réutilisés 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Mamednoor/Sharezza
+   26e2992..6b68a2c  dev -> dev
+➜  Folders git:(dev) git status
+Sur la branche dev
+Votre branche est à jour avec 'origin/dev'.
+
+rien à valider, la copie de travail est propre
+➜  Folders git:(dev) cat quest04.txt 
+Hello World LOCAL!!!
+<<<<<<< HEAD
+second Hello World Local
+=======
+second Hello World REMOTE
+>>>>>>> 26e29927bcd7ce1edab437f3d0b1b124a7b03a39
+➜  Folders git:(dev) 

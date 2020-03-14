@@ -1,0 +1,18 @@
+ 2976  grep wilderfrance.csv
+ 2977  cat wilderfrance.csv
+
+ 2979  grep "2019,PHP" > php_france_2019.csv
+ 2980  cat php_france_2019.csv
+
+
+ 2991  grep "2019,PHP" < wilderfrance.csv > php_france_2019.csv
+
+ 3006  grep "JavaScript" < wilderfrance.csv > javascript.csv
+ 3007  head javascript.csv
+
+ 3018  grep "Biarritz" < javascript.csv > javascriptbiarritz.csv
+ 3019  head javascriptbiarritz.csv
+ 3020  grep "Toulouse" < javascript.csv > javascripttoulouse.csv
+ 3021  head javascripttoulouse.csv
+ 3022  cat javascriptbiarritz.csv javascripttoulouse.csv > javascript_biarritz_toulouse.csv
+ 3023  head javascript_biarritz_toulouse.csv
