@@ -16,3 +16,10 @@
  3021  head javascripttoulouse.csv
  3022  cat javascriptbiarritz.csv javascripttoulouse.csv > javascript_biarritz_toulouse.csv
  3023  head javascript_biarritz_toulouse.csv
+
+
+➜  Linux03 git:(wcs) ✗ wc javascript_biarritz_toulouse.csv
+  45   47 2143 javascript_biarritz_toulouse.csv
+➜  Linux03 git:(wcs) ✗ wc php_france_2019.csv             
+  97  111 3791 php_france_2019.csv
+➜  Linux03 git:(wcs) ✗     
