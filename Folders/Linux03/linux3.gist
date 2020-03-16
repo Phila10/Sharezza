@@ -23,3 +23,22 @@
 ➜  Linux03 git:(wcs) ✗ wc php_france_2019.csv             
   97  111 3791 php_france_2019.csv
 ➜  Linux03 git:(wcs) ✗     
+
+
+
+ 3525  cp javascript_biarritz_toulouse.csv javascript_biarritz_toulouse2.csv
+ 3526  cp php_france_2019.csv php_france_20192.csv
+ 3527  wc php_france_2019.csv > php_france_20192.csv
+ 3528  wc javascript_biarritz_toulouse.csv > javascript_biarritz_toulouse2.csv
+ 3529  gst
+ 3530  git add javascript_biarritz_toulouse1.csv
+ 3531  gst
+ 3532  git add javascript_biarritz_toulouse.csv
+ 3533  gst
+ 3534  git add php_france_2019
+ 3535  gst
+ 3536  git add php_france_20191.csv php_france_2019.csv
+ 3537  gst
+ 3538  git commit -m "correction"
+ 3539  git push
+ 3540  gst
