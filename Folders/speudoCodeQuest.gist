@@ -1,0 +1,20 @@
+Variables
+ nombreSaisi
+ Message <= "Bienvenue à la Wild"
+ i = 0
+
+DEBUT
+
+Demander nombre
+ nombre = nombreSaisi
+
+lire nombreSaisi
+     nombreSaisi = nombre
+
+Tant que i < nombre
+  afficher Message
+   i+1
+
+Fin tant que
+
+Fin
